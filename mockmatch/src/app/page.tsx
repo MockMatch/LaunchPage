@@ -4,6 +4,7 @@
 import { FormEvent, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   const [email, setEmail] = useState('');
@@ -20,10 +21,10 @@ export default function Home() {
       <header className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
           {/* Logo */}
-          <a href="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2">
             <Image src="/logo.png" alt="MockMatch Logo" width={40} height={40} />
             <span className="text-xl font-bold text-[#2E9BFF]">MockMatch</span>
-          </a>
+          </Link>
           {/* Navigation */}
           <nav className="flex space-x-6">
             <a href="#about" className="text-[#2E9BFF] hover:text-[#FF761F]">
@@ -42,26 +43,33 @@ export default function Home() {
         <section id="about" className="flex flex-col scroll-mt-16">
           {/* Image 1 */}
           <div className="w-full">
-            <img
+            <Image
               src="/about1.png"
               alt="About Image 1"
-              className="w-full"
+              width={1920}
+              height={1080}
+              className="w-full h-auto"
+              priority
             />
           </div>
           {/* Image 2 */}
           <div className="w-full">
-            <img
+            <Image
               src="/about2.png"
               alt="About Image 2"
-              className="w-full"
+              width={1920}
+              height={1080}
+              className="w-full h-auto"
             />
           </div>
           {/* Image 3 */}
           <div className="w-full">
-            <img
+            <Image
               src="/about3.png"
               alt="About Image 3"
-              className="w-full"
+              width={1920}
+              height={1080}
+              className="w-full h-auto"
             />
           </div>
         </section>
@@ -97,7 +105,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-[#2E9BFF] text-white py-4 text-center">
-        <p>&copy; 2024 MockMatch. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} MockMatch. All rights reserved.</p>
       </footer>
     </div>
   );
