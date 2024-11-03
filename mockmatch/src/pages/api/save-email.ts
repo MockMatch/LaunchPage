@@ -2,8 +2,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = process.env.SUPABASE_URL!;
-const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+const supabaseUrl = 'https://pcpuinxamasbavifrxbb.supabase.co';
+const supabaseServiceRoleKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBjcHVpbnhhbWFzYmF2aWZyeGJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzA2MjY1NDksImV4cCI6MjA0NjIwMjU0OX0.qVm_vHP_8SgMhGZAg9gZ_kU7QP1Xjbgn7W1LGaOufNU'; // Your actual service role key
 
 const supabase = createClient(supabaseUrl, supabaseServiceRoleKey);
 
