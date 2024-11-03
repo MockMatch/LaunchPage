@@ -1,6 +1,7 @@
 // src/app/page.tsx
 'use client';
 
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -30,6 +31,7 @@ export default function Home() {
             <a href="#signup" className="text-[#2E9BFF] hover:text-[#FF761F]">
               Signup
             </a>
+            <SpeedInsights />
           </nav>
         </div>
       </header>
