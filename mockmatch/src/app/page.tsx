@@ -2,6 +2,7 @@
 'use client';
 
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from "@vercel/analytics/react"
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -50,6 +51,7 @@ export default function Home() {
               className="w-full h-auto"
               priority
             />
+           <Analytics />
           </div>
         </section>
 
