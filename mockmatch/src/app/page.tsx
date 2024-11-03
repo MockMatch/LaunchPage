@@ -38,66 +38,15 @@ export default function Home() {
       <main className="flex-1 mt-[64px]">
         {/* About Section */}
         <section id="about" className="flex flex-col scroll-mt-16">
-          {/* Image 1 */}
+          {/* Image All */}
           <div className="w-full">
             <Image
-              src="/about1.png"
-              alt="About Image 1"
+              src="/aboutall.png"
+              alt="About All Images"
               width={1920}
               height={1080}
               className="w-full h-auto"
               priority
-            />
-          </div>
-          {/* Image 2 */}
-          <div className="w-full">
-            <Image
-              src="/about2.png"
-              alt="About Image 2"
-              width={1920}
-              height={1080}
-              className="w-full h-auto"
-            />
-          </div>
-          {/* Image 3 */}
-          <div className="w-full">
-            <Image
-              src="/about3.png"
-              alt="About Image 3"
-              width={1920}
-              height={1080}
-              className="w-full h-auto"
-            />
-          </div>
-          {/* Image 4 */}
-          <div className="w-full">
-            <Image
-              src="/about4.png"
-              alt="About Image 4"
-              width={1920}
-              height={1080}
-              className="w-full h-auto"
-            />
-          </div>
-          {/* Image 4 */}
-          {/* Image 5 */}
-          <div className="w-full">
-            <Image
-              src="/about5.png"
-              alt="About Image 5"
-              width={1920}
-              height={1080}
-              className="w-full h-auto"
-            />
-          </div>
-          {/* Image 6 */}
-          <div className="w-full">
-            <Image
-              src="/about6.png"
-              alt="About Image 6"
-              width={1920}
-              height={1080}
-              className="w-full h-auto"
             />
           </div>
         </section>
