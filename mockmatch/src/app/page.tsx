@@ -82,6 +82,36 @@ export default function Home() {
               className="w-full h-auto"
             />
           </div>
+          {/* Image 4 */}
+          <div className="w-full">
+            <Image
+              src="/about4.png"
+              alt="About Image 4"
+              width={1920}
+              height={1080}
+              className="w-full h-auto"
+            />
+          </div>
+          {/* Image 5 */}
+          <div className="w-full">
+            <Image
+              src="/about5.png"
+              alt="About Image 5"
+              width={1920}
+              height={1080}
+              className="w-full h-auto"
+            />
+          </div>
+          {/* Image 6 */}
+          <div className="w-full">
+            <Image
+              src="/about6.png"
+              alt="About Image 6"
+              width={1920}
+              height={1080}
+              className="w-full h-auto"
+            />
+          </div>
         </section>
 
         {/* Signup Section */}
