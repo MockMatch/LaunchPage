@@ -1,17 +1,14 @@
 // src/app/page.tsx
 'use client';
 
-import { FormEvent, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
-  const [email, setEmail] = useState('');
   const router = useRouter();
 
-  const handleSignup = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  const handleSignupRedirect = () => {
     router.push('/signup');
   };
 
@@ -105,32 +102,14 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Signup Section */}
-        <section id="signup" className="flex items-center justify-center py-12 scroll-mt-16">
-          <form onSubmit={handleSignup} className="bg-white p-6 rounded shadow-md">
-            <h2 className="text-2xl font-bold mb-4 text-center text-[#2E9BFF]">
-              Sign Up for Updates
-            </h2>
-            <p className="text-gray-700 mb-6 text-center">
-              Enter your email to receive updates on MockMatch and be notified about our launch.
-            </p>
-            <div className="flex flex-col space-y-4">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#2E9BFF]"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-              />
-              <button
-                type="submit"
-                className="bg-[#FF761F] text-white py-2 rounded hover:bg-[#2E9BFF]"
-              >
-                Sign Up
-              </button>
-            </div>
-          </form>
+{/* Signup Section */}
+<section id="signup" className="flex items-center justify-center py-12 scroll-mt-16">
+          <button
+            onClick={handleSignupRedirect}
+            className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF] font-bold"
+          >
+            Sign Up for Updates
+          </button>
         </section>
       </main>
 
