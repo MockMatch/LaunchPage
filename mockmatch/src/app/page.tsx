@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
+import CTAButton from '../../components/CTAButton';
 
 export default function Home() {
   const router = useRouter();
@@ -26,12 +27,7 @@ export default function Home() {
           </Link>
           {/* Navigation */}
           <nav className="flex space-x-6">
-            <a href="#about" className="text-[#2E9BFF] hover:text-[#FF761F]">
-              About
-            </a>
-            <a href="#signup" className="text-[#2E9BFF] hover:text-[#FF761F]">
-              Signup
-            </a>
+            <CTAButton buttonText={"Sign up for updates"}></CTAButton>
             <SpeedInsights />
           </nav>
         </div>
@@ -61,7 +57,7 @@ export default function Home() {
             onClick={handleSignupRedirect}
             className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF] font-bold"
           >
-            Sign Up for Updates
+            Sign up for updates
           </button>
         </section>
       </main>

@@ -1,0 +1,16 @@
+// src/components/SignupSection.tsx
+'use client';
+
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+
+export default function CTAButton({buttonText}) {
+
+  return (
+    <div>
+        <button type='submit' className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF] font-bold">
+            {buttonText}
+        </button>
+    </div>
+  );
+}
