@@ -49,7 +49,7 @@ export default function Home() {
             </div>
             <CTAButton buttonText={"Sign up for updates"}></CTAButton>
             <div className='mt-8'>
-              <Image src="/about1.png" width={0} height={0} sizes='100vw' style={{width: "100%", height: "auto"}}></Image>
+              <Image src="/about1.png" width={0} height={0} sizes='100vw' style={{width: "100%", height: "auto"}} alt='HERO IMAGE'></Image>
             </div>
           </div>
            <Analytics />
