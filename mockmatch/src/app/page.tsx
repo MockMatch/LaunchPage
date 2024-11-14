@@ -36,23 +36,22 @@ export default function Home() {
       {/* Main Content */}
       <main className="flex-1 mt-[64px]">
         {/* About Section */}
-        <section id="about" className="flex flex-col scroll-mt-16">
+        <section id="about" className="flex items-center justify-center py-12 scroll-mt-16">
           {/* Image All */}
-          <div className="w-full">
-            <Image
-              src="/aboutall.png"
-              alt="About All Images"
-              width={1920}
-              height={1080}
-              className="w-full h-auto"
-              priority
-            />
-           <Analytics />
+          <div className='flex flex-col items-center'>
+            <h1 className='block text-5xl font-semibold w-3/5 mb-8 text-center leading-tight'>Prepare smarter, speak confidently, and excel with AI-driven feedback.</h1>
+            <div className='flex flex-col items-center'>
+              <h2 className='text-xl w-1/2 mb-8 text-center'>
+              Get tailored behavioural and technical interview questions, personalized advice, and specific insights to help you ace your next tech interview. Build confidence and clarity with intelligent feedback that guides you every step of the way.
+              </h2>
+            </div>
+            <CTAButton buttonText={"Sign up for updates"}></CTAButton>
           </div>
+           <Analytics />
         </section>
 
 {/* Signup Section */}
-<section id="signup" className="flex items-center justify-center py-12 scroll-mt-16">
+      <section id="signup" className="flex items-center justify-center py-12 scroll-mt-16">
           <button
             onClick={handleSignupRedirect}
             className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF] font-bold"
