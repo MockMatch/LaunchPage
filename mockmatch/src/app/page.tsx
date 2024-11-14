@@ -54,12 +54,7 @@ export default function Home() {
 
 {/* Signup Section */}
       <section id="signup" className="flex items-center justify-center py-12 scroll-mt-16">
-          <button
-            onClick={handleSignupRedirect}
-            className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF] font-bold"
-          >
-            Sign up for updates
-          </button>
+         <CTAButton buttonText={"Sign up for updates"}></CTAButton>
         </section>
       </main>
 
