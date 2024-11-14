@@ -38,12 +38,12 @@ export default function Home() {
         {/* About Section */}
         <section id="about" className="flex items-center justify-center py-12 scroll-mt-16">
           {/* Image All */}
-          <div className='flex flex-col items-center'>
-            <h1 className='text-primary-text block text-5xl font-semibold w-3/5 mb-8 text-center leading-tight'>
+          <div className='flex flex-col items-center mt-16'>
+            <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
               Prepare smarter, speak confidently, and excel with AI-driven feedback.
               </h1>
             <div className='flex flex-col items-center'>
-              <h2 className='text-secondary-text text-xl w-1/2 mb-8 text-center'>
+              <h2 className='text-secondary-text text-xl w-5/12 mb-8 text-center'>
               Get tailored behavioural and technical interview questions, personalized advice, and specific insights to help you ace your next tech interview. Build confidence and clarity with intelligent feedback that guides you every step of the way.
               </h2>
             </div>
