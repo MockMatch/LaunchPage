@@ -48,6 +48,9 @@ export default function Home() {
               </h2>
             </div>
             <CTAButton buttonText={"Sign up for updates"}></CTAButton>
+            <div className='mt-8'>
+              <Image src="/about1.png" width={0} height={0} sizes='100vw' style={{width: "100%", height: "auto"}}></Image>
+            </div>
           </div>
            <Analytics />
         </section>
