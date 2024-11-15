@@ -3,7 +3,7 @@
 
 import { useRouter } from 'next/navigation';
 
-export default function CTAButton({buttonText}) {
+export default function CtaButton({buttonText}) {
 
   const router = useRouter();
 
