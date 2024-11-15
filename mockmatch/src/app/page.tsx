@@ -41,7 +41,7 @@ export default function Home() {
           <div className='flex flex-col items-center mt-16'>
             <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
               Prepare smarter, speak confidently, and excel with AI-driven feedback.
-              </h1>
+            </h1>
             <div className='flex flex-col items-center'>
               <h2 className='text-secondary-text text-xl w-5/12 mb-8 text-center'>
               Get tailored behavioural and technical interview questions, personalized advice, and specific insights to help you ace your next tech interview. Build confidence and clarity with intelligent feedback that guides you every step of the way.
@@ -53,6 +53,148 @@ export default function Home() {
             </div>
           </div>
            <Analytics />
+        </section>
+
+        <section id='segue' className="flex items-center justify-center py-12 scroll-mt-16">
+          <div className='flex flex-col items-center mt-16' >
+            <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
+              Imagine you're in an interview for your dream tech job.
+            </h1>
+            <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
+              You know exactly how to solve every LeetCode hard they'll throw at you
+            </h1>
+            <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
+              But now you're struggling to express your ideas and personality.
+            </h1>
+            <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
+              We'll make sure that never happens.
+            </h1>
+            </div>
+        </section>
+
+        <section id='features1' className="flex items-center justify-center py-12 scroll-mt-16">
+          <div className='flex flex-col items-center mt-16' >
+            <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
+              Your personalized speaking coach.
+            </h1>
+            <div className='flex flex-col items-center'>
+            </div>
+            <div className='mt-8 flex flex-row items-center'>
+              <Image src="/about4.png" width={0} height={0} sizes='100vw' 
+              style={{width: "32em", 
+              height: "auto", 
+              border: "2px solid #f3f3f3",
+               borderRadius: "16px"}} alt='FEATURE 1'>
+               </Image>
+               <div className='flex-col items-center ml-16'>
+                <h2 className='text-secondary-text text-xl mb-8 text-center max-w-96'>
+                  Practice personalized behavioural questions anytime, anywhere.
+                </h2>
+                <CTAButton buttonText={"Learn more"}>
+                </CTAButton>
+              </div>
+            </div>
+            </div>
+        </section>
+
+        <section id='features2' className="flex items-center justify-center py-12 scroll-mt-16">
+          <div className='flex flex-col items-center mt-16' >
+            <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
+              And your personal technical coach.
+            </h1>
+            <div className='flex flex-col items-center'>
+            </div>
+            <div className='mt-8 flex flex-row items-center'>
+               <div className='flex-col items-center mr-16'>
+                <h2 className='text-secondary-text text-xl mb-8 text-center max-w-96'>
+                Level up your on-the-spot problem solving skills.                 
+                </h2>
+                <CTAButton buttonText={"Learn more"}>
+                </CTAButton>
+              </div>
+              <Image src="/about5.png" width={0} height={0} sizes='100vw' 
+              style={{width: '32em', 
+              height: "auto", 
+              border: "2px solid #f3f3f3",
+               borderRadius: "16px"}} alt='FEATURE 2'>
+               </Image>
+            </div>
+            </div>
+        </section>
+
+        <section id='features3' className="flex items-center justify-center py-12 scroll-mt-16">
+          <div className='flex flex-col items-center mt-16' >
+            <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
+            Pinpoint every error.
+            </h1>
+            <div className='flex flex-col items-center'>
+            </div>
+            <div className='mt-8 flex flex-row items-center'>
+              <Image src="/about2.png" width={0} height={0} sizes='100vw' 
+              style={{width: '32em', 
+              height: "auto", 
+              border: "2px solid #f3f3f3",
+               borderRadius: "16px"}} alt='FEATURE 2'>
+               </Image>
+               <div className='flex-col items-center ml-16'>
+                <h2 className='text-secondary-text text-xl mb-8 text-center max-w-96'>
+                Review each practice session in detail and see your personalized feedback.             
+                </h2>
+                <CTAButton buttonText={"Learn more"}>
+                </CTAButton>
+              </div>
+            </div>
+            </div>
+        </section>
+
+        <section id='features4' className="flex items-center justify-center py-12 scroll-mt-16">
+          <div className='flex flex-col items-center mt-16' >
+            <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
+            Then see what to work on.
+            </h1>
+            <div className='flex flex-col items-center'>
+            </div>
+            <div className='mt-8 flex flex-row items-center'>
+               <div className='flex-col items-center mr-16'>
+                <h2 className='text-secondary-text text-xl mb-8 text-center max-w-96'>
+                Tailored and intelligent insights on your overall interview performance.                
+                </h2>
+                <CTAButton buttonText={"Learn more"}>
+                </CTAButton>
+              </div>
+              <Image src="/about6.png" width={0} height={0} sizes='100vw' 
+              style={{width: '32em', 
+              height: "auto", 
+              border: "2px solid #f3f3f3",
+               borderRadius: "16px"}} alt='FEATURE 2'>
+               </Image>
+            </div>
+            </div>
+        </section>
+
+        <section id='features5' className="flex items-center justify-center py-12 scroll-mt-16">
+          <div className='flex flex-col items-center mt-16' >
+            <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
+            Be ready for every situation.
+            </h1>
+            <div className='flex flex-col items-center'>
+            </div>
+            <div className='mt-8 flex flex-row items-center'>
+              <Image src="/about2.png" width={0} height={0} sizes='100vw' 
+              style={{width: '32em', 
+              height: "auto", 
+              border: "2px solid #f3f3f3",
+               borderRadius: "16px"}} alt='FEATURE 2'>
+               </Image>
+               <div className='flex-col items-center ml-16'>
+                <h2 className='text-secondary-text text-xl mb-8 text-center max-w-96'>
+                Practice with question sets tailored to all your target companies.
+                </h2>
+                <CTAButton buttonText={"Learn more"}>
+                </CTAButton>
+              </div>
+            </div>
+            </div>
         </section>
 
 {/* Signup Section */}
