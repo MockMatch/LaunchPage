@@ -3,17 +3,11 @@
 
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from "@vercel/analytics/react"
-import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import CTAButton from '../../components/CTAButton';
 
 export default function Home() {
-  const router = useRouter();
-
-  const handleSignupRedirect = () => {
-    router.push('/signup');
-  };
 
   return (
     <div className="flex flex-col min-h-screen">
