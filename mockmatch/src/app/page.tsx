@@ -52,16 +52,16 @@ export default function Home() {
         <section id='segue' className="flex items-center justify-center py-12 scroll-mt-16">
           <div className='flex flex-col items-center mt-16' >
             <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
-              Imagine you're in an interview for your dream tech job.
+              Imagine you&apos;re in an interview for your dream tech job.
             </h1>
             <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
-              You know exactly how to solve every LeetCode hard they'll throw at you
+              You know exactly how to solve every LeetCode hard they&apos;ll throw at you
             </h1>
             <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
-              But now you're struggling to express your ideas and personality.
+              But now you&apos;re struggling to express your ideas and personality.
             </h1>
             <h1 className='text-primary-text block text-5xl font-semibold w-7/12 mb-8 text-center leading-tight'>
-              We'll make sure that never happens.
+              We&apos;ll make sure that never happens.
             </h1>
             </div>
         </section>
