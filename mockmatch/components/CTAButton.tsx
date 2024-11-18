@@ -3,7 +3,7 @@
 
 import { useRouter } from 'next/navigation';
 
-export default function CtaButton({buttonText}) {
+export default function CtaButton({ buttonText, className }: { buttonText: string, className: string }) {
 
   const router = useRouter();
 
@@ -13,7 +13,7 @@ export default function CtaButton({buttonText}) {
 
   return (
     <div className='flex flex-col items-center'>
-        <button type='submit' onClick={handleSignupRedirect} className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]">
+        <button type='submit' onClick={handleSignupRedirect} className={className}>
             {buttonText}
         </button>
     </div>

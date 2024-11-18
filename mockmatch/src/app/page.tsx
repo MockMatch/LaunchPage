@@ -21,7 +21,7 @@ export default function Home() {
           </Link>
           {/* Navigation */}
           <nav className="flex space-x-6">
-            <CtaButton buttonText={"Sign up for updates"} className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]" />
+            <CtaButton buttonText={"Sign up for updates"} className={"bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"}/>
             <SpeedInsights />
           </nav>
         </div>
@@ -41,7 +41,7 @@ export default function Home() {
               Get tailored behavioural and technical interview questions, personalized advice, and specific insights to help you ace your next tech interview. Build confidence and clarity with intelligent feedback that guides you every step of the way.
               </h2>
             </div>
-            <CtaButton buttonText={"Sign up for updates"} className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"/>
+            <CtaButton buttonText={"Sign up for updates"} className={"bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"}/>
             <div className='mt-8'>
               <Image src="/about1.png" width={0} height={0} sizes='100vw' style={{width: "100%", height: "auto"}} alt='HERO IMAGE'></Image>
             </div>
@@ -84,7 +84,7 @@ export default function Home() {
                 <h2 className='text-secondary-text text-xl mb-8 text-center max-w-96'>
                   Practice personalized behavioural questions anytime, anywhere.
                 </h2>
-                <CtaButton buttonText={"Learn more"} className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"/>
+                <CtaButton buttonText={"Learn more"} className={"bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"}/>
               </div>
             </div>
             </div>
@@ -102,7 +102,7 @@ export default function Home() {
                 <h2 className='text-secondary-text text-xl mb-8 text-center max-w-96'>
                 Level up your on-the-spot problem solving skills.                 
                 </h2>
-                <CtaButton buttonText={"Learn more"} className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"/>
+                <CtaButton buttonText={"Learn more"} className={"bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"}/>
               </div>
               <Image src="/about5.png" width={0} height={0} sizes='100vw' 
               style={{width: '32em', 
@@ -132,7 +132,7 @@ export default function Home() {
                 <h2 className='text-secondary-text text-xl mb-8 text-center max-w-96'>
                 Review each practice session in detail and see your personalized feedback.             
                 </h2>
-                <CtaButton buttonText={"Learn more"} className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"/>
+                <CtaButton buttonText={"Learn more"} className={"bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"}/>
               </div>
             </div>
             </div>
@@ -150,7 +150,7 @@ export default function Home() {
                 <h2 className='text-secondary-text text-xl mb-8 text-center max-w-96'>
                 Tailored and intelligent insights on your overall interview performance.                
                 </h2>
-                <CtaButton buttonText={"Learn more"} className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"/>
+                <CtaButton buttonText={"Learn more"} className={"bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"}/>
               </div>
               <Image src="/about6.png" width={0} height={0} sizes='100vw' 
               style={{width: '32em', 
@@ -180,7 +180,7 @@ export default function Home() {
                 <h2 className='text-secondary-text text-xl mb-8 text-center max-w-96'>
                 Practice with question sets tailored to all your target companies.
                 </h2>
-                <CtaButton buttonText={"Learn more"} className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"/>
+                <CtaButton buttonText={"Learn more"} className={"bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"}/>
               </div>
             </div>
             </div>
@@ -188,7 +188,7 @@ export default function Home() {
 
 {/* Signup Section */}
       <section id="signup" className="flex items-center justify-center py-12 scroll-mt-16">
-         <CtaButton buttonText={"Sign up for updates"} className="bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"/>
+        <CtaButton buttonText={"Sign up for updates"} className={"bg-[#FF761F] text-white py-3 px-6 rounded hover:bg-[#2E9BFF]"}/>
         </section>
       </main>
 
